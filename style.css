@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+body {background-color:black;
+    color: white}
+
 .student-owner {
     max-width: 70%;
     background-color: black;
