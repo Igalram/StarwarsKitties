@@ -2,23 +2,42 @@
     box-sizing: border-box;
 }
 
-body {background-color:black;
-    color: white}
+body {
+    background-color: black;
+    color: white
+}
+
+.student-contributor, .student-owner {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 5%;
+}
 
 .student-owner {
-    max-width: 70%;
     background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5%;
     text-align: center;
-
 }
 
 .SWimage {
     max-width: 80%;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1 { text-align: center;}
+h1 {
+    text-align: center;
+}
+
+.student-contributor {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.student-contributor img {
+    margin: 0 auto;
+    display: block;
+}
+
+.student-contributor a {
+    color: inherit;
+}
